@@ -47,3 +47,12 @@ The React app will be available at http://localhost:3000.
 docker-compose up --build
 ```
 The backend will be available at http://0.0.0.0:8080/, and the frontend at http://localhost:3000.
+
+### Troubleshooting
+
+If the frontend cannot connect to the backend, add this to your hosts file
+macOS/ Linux
+```sh
+sudo nano /etc/hosts
+127.0.0.1 backend
+```
